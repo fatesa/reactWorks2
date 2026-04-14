@@ -10,3 +10,8 @@
 ### TypeScript 기반의 React Project
  - npm create vite@latest my-app
  - React, Typescript, yes
+
+### shopping 웹 만들기
+ - npm create vite@latest shopping
+ - React, Typescript, yes
+ - shpping 폴더 하위로 이동 > npm install react-router-dom
