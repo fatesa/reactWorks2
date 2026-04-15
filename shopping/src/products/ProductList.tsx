@@ -6,7 +6,7 @@ import monitor from '../assets/monitor.png'
 import { Link } from 'react-router-dom'
 
 //image 파일 저장 타입 정의
-const imageMap:Record<string, string> = {
+export const imageMap:Record<string, string> = {
     'mouse.png': mouse,
     'keyboard.png': keyboard,
     'usb.png': usb,

@@ -4,16 +4,16 @@ import keyboard from '../assets/keyboard.png'
 import usb from '../assets/usb.png'
 import monitor from '../assets/monitor.png'
 import { Link, useParams } from 'react-router-dom'
-// import type {imageMap} from './ProductList'
+import {imageMap} from './ProductList'
 
-
+/*  
 const imageMap:Record<string, string> = {
     'mouse.png': mouse,
     'keyboard.png': keyboard,
     'usb.png': usb,
     'monitor.png': monitor
 }
-
+*/
 const ProductInfo = () => {
     const {id} = useParams();
 
